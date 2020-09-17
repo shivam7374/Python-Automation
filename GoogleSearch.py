@@ -9,5 +9,4 @@ element = driver.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[1]/div/
 element.send_keys(searchtext)
 element = driver.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[3]/center/input[1]')
 element.click()
-element.send_keys(Keys.RETURN)
-element.close()
+driver.close()
